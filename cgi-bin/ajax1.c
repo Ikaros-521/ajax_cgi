@@ -18,7 +18,7 @@ int main(void)
 	{
 	}
 
-    printf("Content type: text/html\n\n");
+    printf("Content-type: text/html\n\n");
 
 	if(strstr(lenstr,"txtIDA")!=NULL)
 	{
