@@ -19,7 +19,7 @@ BOA的搭建参考：[Linux下嵌入式Web服务器BOA和CGI编程开发](https:
 ## 效果展示
 
 ### **ajaxtest1.html**
-![在这里插入图片描述](https://images.gitee.com/uploads/images/2019/1204/122946_de54eb11_5140590.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200825111118482.gif#pic_center)
 **实现效果：在对应输入框内输入内容调用对应函数，非空，就显示cgi程序返回的内容**
 
 ```c
@@ -37,13 +37,11 @@ BOA的搭建参考：[Linux下嵌入式Web服务器BOA和CGI编程开发](https:
 ```javascript
 document.getElementById("txtIDB").innerHTML=xmlhttp.responseText;
 ```
-![在这里插入图片描述](https://images.gitee.com/uploads/images/2019/1204/122946_9e5eb29a_5140590.png)
-![在这里插入图片描述](https://images.gitee.com/uploads/images/2019/1204/122946_16f6ad0b_5140590.png)
 
 ---
 
 ### **ajaxtest3.html**
-![在这里插入图片描述](https://images.gitee.com/uploads/images/2019/1204/122946_88eb0548_5140590.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200825111006204.gif#pic_center)
 **点击按钮**
 
 ```javascript
@@ -80,4 +78,3 @@ var json = JSON.parse(jsonstr);
     }
 ```
 
-![在这里插入图片描述](https://images.gitee.com/uploads/images/2019/1204/122946_759a2c4f_5140590.png)
